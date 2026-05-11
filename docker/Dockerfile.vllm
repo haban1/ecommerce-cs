@@ -1,0 +1,16 @@
+# 使用官方 vLLM 镜像
+FROM vllm/vllm-openai:latest
+
+# 设置工作目录
+WORKDIR /workspace
+
+# 设置环境变量
+ENV HF_HOME=/root/.cache/huggingface
+ENV TRANSFORMERS_CACHE=/root/.cache/huggingface
+
+# 暴露端口
+EXPOSE 8000
+
+# 启动命令（通过 docker-compose 传入参数）
+# 默认命令会被 docker-compose 覆盖
+CMD ["python", "-m", "vllm.entrypoints.openai.api_server"]

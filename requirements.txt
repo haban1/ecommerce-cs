@@ -1,0 +1,62 @@
+# LangChain 生态
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+
+# MCP 协议
+mcp>=0.1.0
+
+# FastAPI 和 Web 框架
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Gradio UI
+gradio>=4.0.0
+
+# 数据库
+pymysql>=1.1.0
+sqlalchemy>=2.0.0
+redis>=5.0.0
+
+# 向量数据库
+chromadb>=0.4.0
+
+# Embedding 和检索
+sentence-transformers>=2.3.0
+FlagEmbedding>=1.2.0
+rank-bm25>=0.2.2
+jieba>=0.42.1
+pymupdf>=1.27.0
+
+# 阿里云 SDK
+dashscope>=1.14.0
+
+# JWT 认证
+pyjwt>=2.8.0
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+
+# 工具库
+python-dotenv>=1.0.0
+pyyaml>=6.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# HTTP 客户端
+httpx>=0.26.0
+aiohttp>=3.9.0
+
+# 日志和监控
+loguru>=0.7.0
+
+# 开发工具（可选）
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.7.0
